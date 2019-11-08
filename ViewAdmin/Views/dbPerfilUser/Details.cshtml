@@ -1,0 +1,58 @@
+﻿@model CLRegras.PerfilUser
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Perfil Usuário</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Nome:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Visualizar:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.view)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Editar:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.edit)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Criar:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.create)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Deletar:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.delete)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

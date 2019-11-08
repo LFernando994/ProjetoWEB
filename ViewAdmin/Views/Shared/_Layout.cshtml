@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="~/imgs/favicon.ico" type="image/x-icon" />
+    <title>@ViewBag.Title - LFSSistemas</title>
+    @using Microsoft.AspNet.Identity
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+</head>
+<body>
+    @{
+        ViewBag.id = User.Identity.GetUserId();
+    }
+
+
+    @if (Request.IsAuthenticated)
+    {
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("LFSSistemas", "", "", new { area = "" }, new { @class = "navbar-brand" })
+                    <img src="~/imgs/8.png" height="40" width="40" style="margin:5px" class="rounded-circle">
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Cadastros XML <span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background-color:#5bbfdb;">
+                                <li>@Html.ActionLink("Cliente", "Index", "Cliente")</li>
+                                <li>@Html.ActionLink("Funcionário", "Index", "Funcionario")</li>
+                                <li>@Html.ActionLink("Usuário Sistema", "Index", "UsuarioSistema")</li>
+                                <li>@Html.ActionLink("Área de Atuação", "Index", "Areas")</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Cadastros BD <span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background-color:#5bbfdb;">
+                                <li>@Html.ActionLink("Cliente", "Index", "dbCliente")</li>
+                                <li>@Html.ActionLink("Funcionário", "Index", "dbFuncionario")</li>
+                                <li>@Html.ActionLink("Área de Atuação", "Index", "dbAreaDeAtuacao")</li>
+                                <li>@Html.ActionLink("Perfil de Usuário", "Index", "dbPerfilUser")</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Chamados <span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background-color:#5bbfdb;">
+                                <li>@Html.ActionLink("Chamados abertos", "IndexChamados", "dbChamado", new { id = ViewBag.id }, null)</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li>@Html.Partial("_LoginPartial")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    }
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p style="text-align: center;">&copy; @DateTime.Now.Year - Todos os Direitos Reservados</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/inputmask")
+    @RenderSection("scripts", required: false)
+    @{Html.RenderPartial("~/Views/Shared/_Mensagem.cshtml");}
+
+</body>
+</html>

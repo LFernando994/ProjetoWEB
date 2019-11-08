@@ -1,0 +1,38 @@
+﻿@model IEnumerable<CLRegras.Cliente>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Adicionar Cliente</h2>
+
+
+
+<p>
+    @using (Ajax.BeginForm("Index", "dbCliente", new AjaxOptions { HttpMethod = "Get", InsertionMode = InsertionMode.Replace, UpdateTargetId = "divListaIndex" }))
+    {
+
+        <div class="form-group">
+            @Html.Label("Pesquisar: ", new { @class = "control-label col-md-1" })
+            <div class="col-md-10">
+                @Html.TextBox("Pesquisa", null, new { @class = "form-control" })
+                <input type="submit" value="Pesquisar" class="btn btn-warning" />
+            </div>
+        </div>
+    }
+</p>
+
+
+
+
+@Html.Partial("_IndexPartial", Model)
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+
+}
+
+<p>
+    @Html.ActionLink("Criar Novo", "Register", "Account")
+</p>
+

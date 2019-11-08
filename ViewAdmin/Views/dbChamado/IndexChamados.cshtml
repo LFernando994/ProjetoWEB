@@ -1,0 +1,30 @@
+﻿@model IEnumerable<CLRegras.Chamado>
+
+<h2>Chamados Abertos</h2>
+
+<table class="table table-striped">
+    <tr>
+
+        <th>
+            @Html.DisplayName("Data da Solicitação")
+        </th>
+        <th></th>
+    </tr>
+
+
+@foreach (var item in Model) {
+ 
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.dataDeSolicitacao)
+        </td>
+
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Detalhes", "Details", new { id = item.id }) |
+            @Html.ActionLink("Finalizar Chamado", "Delete", new { id = item.id })
+        </td>
+    </tr>
+}
+
+</table>

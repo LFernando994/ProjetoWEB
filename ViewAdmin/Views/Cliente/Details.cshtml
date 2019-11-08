@@ -1,0 +1,75 @@
+﻿@model CLRegras.Cliente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nome:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+
+        <dt>
+            Sexo:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sexo)
+        </dd>
+
+        <dt>
+            CPF:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cpf)
+        </dd>
+
+        <dt>
+            RG:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rg)
+        </dd>
+
+        <dt>
+            Data de Nascimento:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dataDeNascimento)
+        </dd>
+
+        <dt>
+            Grupo Sanguíneo
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.grupoSanguineo)
+        </dd>
+
+        <dt>
+            Data de Expiração:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dataDeExpiracao)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Contatos", "Index", "Contato", new { id = Model.id}, null) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

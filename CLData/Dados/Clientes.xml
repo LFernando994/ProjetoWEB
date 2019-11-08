@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <id>0</id>
+    <nome>Lionel Messi</nome>
+    <sexo>77</sexo>
+    <cpf>3131313131</cpf>
+    <rg>111111122</rg>
+    <dataDeNascimento>1998-01-10T00:00:00</dataDeNascimento>
+    <grupoSanguineo>B+</grupoSanguineo>
+    <dataDeExpiracao>2025-05-10T00:00:00</dataDeExpiracao>
+  </Cliente>
+  <Cliente>
+    <id>1</id>
+    <nome>Fran</nome>
+    <sexo>70</sexo>
+    <cpf>260,843,310-33</cpf>
+    <rg>0</rg>
+    <dataDeNascimento>2005-05-05T00:00:00</dataDeNascimento>
+    <grupoSanguineo>AB+</grupoSanguineo>
+    <dataDeExpiracao>2018-11-05T00:00:00</dataDeExpiracao>
+  </Cliente>
+  <Cliente>
+    <id>2</id>
+    <nome>Fernando</nome>
+    <sexo>77</sexo>
+    <cpf>095,931,080-09</cpf>
+    <rg>65161651</rg>
+    <dataDeNascimento>0001-01-01T00:00:00</dataDeNascimento>
+    <grupoSanguineo>O-</grupoSanguineo>
+    <dataDeExpiracao>2022-05-10T00:00:00</dataDeExpiracao>
+  </Cliente>
+  <Cliente>
+    <id>3</id>
+    <nome>Lfs</nome>
+    <sexo>77</sexo>
+    <cpf>1402965520</cpf>
+    <rg>15481220</rg>
+    <dataDeNascimento>1999-01-10T00:00:00</dataDeNascimento>
+    <grupoSanguineo>A-</grupoSanguineo>
+    <dataDeExpiracao>2022-01-10T00:00:00</dataDeExpiracao>
+  </Cliente>
+</ArrayOfCliente><?xml version="1.0"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /><?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.o<?xml version="1.0"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />

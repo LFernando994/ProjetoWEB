@@ -1,0 +1,63 @@
+﻿@model IEnumerable<CLRegras.Cliente>
+<div id="divListaIndex">
+    
+    <table class="table table-striped" style="margin-top: 100px">
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                CPF
+            </th>
+            <th>
+                RG
+            </th>
+            <th>
+                Data de Nascimento
+            </th>
+            <th>
+                Grupo Sanguíneo
+            </th>
+            <th>
+                Data de Expiração
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.nome)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.cpf)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.rg)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.dataDeNascimento)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.grupoSanguineo)
+                </td>
+
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.dataDeExpiracao)
+                </td>
+
+                <td scope="row">
+                    @Html.ActionLink("Adicionar Contato", "Create", "dbContato", new { id = item.id }, null) |
+                    @Html.ActionLink("Editar", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Detalhes", "Details", new { id = item.id }) |
+                    @Html.ActionLink("Deletar", "Delete", new { id = item.id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+
+</div>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<ArrayOfContato xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contato>
+    <id>2</id>
+    <telefone>(31) 33571-2456</telefone>
+    <email>luizfernandoo1515@gmail.com</email>
+    <cep>33113-010</cep>
+    <endereco>Avenida Adair de Souza</endereco>
+    <cidade>Santa Luzia</cidade>
+    <bairro>Belo Vale</bairro>
+    <numero>253</numero>
+    <uf>MG</uf>
+  </Contato>
+  <Contato>
+    <id>3</id>
+    <telefone>(31) 65618-9981</telefone>
+    <email>luizfernandoo1515@gmail.com</email>
+    <cep>33113-010</cep>
+    <endereco>Avenida Adair de Souza</endereco>
+    <cidade>Santa Luzia</cidade>
+    <bairro>Belo Vale</bairro>
+    <numero>253</numero>
+    <uf>MG</uf>
+  </Contato>
+  <Contato>
+    <id>4</id>
+    <telefone>(31) 02165-1651</telefone>
+    <email>dudoxeza@rmailgroup.in</email>
+    <cep>33113-010</cep>
+    <endereco>Avenida Adair de Souza</endereco>
+    <cidade>Santa Luzia</cidade>
+    <bairro>Belo Vale</bairro>
+    <numero>253</numero>
+    <uf>MG</uf>
+  </Contato>
+  <Contato>
+    <id>5</id>
+    <telefone>(31) 36516-5161</telefone>
+    <email>alek@email.com</email>
+    <cep>36035-550</cep>
+    <endereco>Rua Simão Gabriel Sffeir</endereco>
+    <cidade>Juiz de Fora</cidade>
+    <bairro>Borboleta</bairro>
+    <numero>253</numero>
+    <uf>MG</uf>
+  </Contato>
+  <Contato>
+    <id>5</id>
+    <telefone>(16) 51616-5165</telefone>
+    <email>aleks@email.com</email>
+    <cep>65092-548</cep>
+    <endereco>Rua Nossa Senhora da Penha</endereco>
+    <cidade>São Luís</cidade>
+    <bairro>Pedrinhas</bairro>
+    <numero>369</numero>
+    <uf>MA</uf>
+  </Contato>
+  <Contato>
+    <id>6</id>
+    <telefone>(65) 65656-5165</telefone>
+    <email>tulio@email.com</email>
+    <cep>79117-550</cep>
+    <endereco>Rua Veredas</endereco>
+    <cidade>Campo Grande</cidade>
+    <bairro>Água Limpa Park</bairro>
+    <numero>2536</numero>
+    <uf>MS</uf>
+  </Contato>
+  <Contato>
+    <id>7</id>
+    <telefone>(21) 21651-6165</telefone>
+    <email>fer@email.com</email>
+    <cep>29162-039</cep>
+    <endereco>Beco Um</endereco>
+    <cidade>Serra</cidade>
+    <bairro>Jardim Tropical</bairro>
+    <numero>36</numero>
+    <uf>ES</uf>
+  </Contato>
+</ArrayOfContato>

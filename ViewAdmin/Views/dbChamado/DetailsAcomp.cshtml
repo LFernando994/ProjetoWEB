@@ -1,0 +1,36 @@
+﻿@model CLRegras.Chamado
+
+<div>
+    <h4>Chamado</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayName("Data da Solicitação:")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dataDeSolicitacao)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Solicitante:")
+        </dt>
+
+        <dd>
+            @ViewBag.NomeCli
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Funcionário Responsável:")
+        </dt>
+
+        <dd>
+            @ViewBag.NomeFunc
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Voltar", "Index")
+</p>

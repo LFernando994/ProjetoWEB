@@ -1,0 +1,12 @@
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\bin\Debug\SistemaCadastro.exe.config
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\bin\Debug\SistemaCadastro.exe
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\bin\Debug\SistemaCadastro.pdb
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.csprojAssemblyReference.cache
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.Form1.resources
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.Properties.Resources.resources
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.csproj.GenerateResource.cache
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.csproj.CoreCompileInputs.cache
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.exe
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.pdb
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.FrmClientes.resources
+\\D42M10793999084\Luiz\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.FrmContatos.resources

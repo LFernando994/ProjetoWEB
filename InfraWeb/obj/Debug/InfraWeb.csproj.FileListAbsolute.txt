@@ -1,0 +1,16 @@
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\InfraWeb.dll.config
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\InfraWeb.dll
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\InfraWeb.pdb
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\CLRegras.dll
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\EntityFramework.dll
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\CLData.dll
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\CLRegras.pdb
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\EntityFramework.xml
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\bin\Debug\CLData.pdb
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\obj\Debug\InfraWeb.csprojAssemblyReference.cache
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\obj\Debug\InfraWeb.csproj.CoreCompileInputs.cache
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\obj\Debug\InfraWeb.csproj.CopyComplete
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\obj\Debug\InfraWeb.dll
+C:\Users\x16570530\Desktop\SistemaCadastro\InfraWeb\obj\Debug\InfraWeb.pdb

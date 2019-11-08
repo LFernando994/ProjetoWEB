@@ -1,0 +1,28 @@
+﻿@model IEnumerable<CLRegras.Chamado>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Acompanhamento</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayName("Data da Solicitação")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.dataDeSolicitacao)
+        </td>
+        <td>
+            @Html.ActionLink("Detalhes", "DetailsAcomp", new { id=item.id }) 
+        </td>
+    </tr>
+}
+
+</table>

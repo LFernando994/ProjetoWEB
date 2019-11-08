@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNet.Identity
+
+@if (Request.IsAuthenticated)
+{
+    {
+        string idPessoa= string.Empty;
+        InfraWeb.Repository.ContatoRepository a = new InfraWeb.Repository.ContatoRepository();
+        InfraWeb.Repository.FuncionarioRepository b = new InfraWeb.Repository.FuncionarioRepository();
+
+        foreach (var item1 in a.ObterTodos().Where(x => x.email.Equals(User.Identity.GetUserName())))
+        {
+            idPessoa = item1.idPessoa;
+        }
+        foreach (var item2 in b.ObterTodos().Where(x => x.id.Equals(idPessoa)))
+        {
+            ViewData["NomeUser"] = item2.nome;
+        }
+
+    }
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+
+                @Html.ActionLink("Olá " + ViewData["NomeUser"] + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
+    }
+}
+else
+{
+<ul class="nav navbar-nav navbar-right">
+    <li>@Html.ActionLink(" ", "Create", "dbFuncionario", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+</ul>
+}

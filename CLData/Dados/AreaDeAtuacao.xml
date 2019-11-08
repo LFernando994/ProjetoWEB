@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfAreaDeAtuacao xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AreaDeAtuacao>
+    <id>0</id>
+    <nome>Suporte Técnico</nome>
+  </AreaDeAtuacao>
+  <AreaDeAtuacao>
+    <id>1</id>
+    <nome>Desenvolvimento</nome>
+  </AreaDeAtuacao>
+  <AreaDeAtuacao>
+    <id>2</id>
+    <nome>Infra</nome>
+  </AreaDeAtuacao>
+  <AreaDeAtuacao>
+    <id>3</id>
+    <nome>Supervisão</nome>
+  </AreaDeAtuacao>
+  <AreaDeAtuacao>
+    <id>4</id>
+    <nome>Faxineiro</nome>
+  </AreaDeAtuacao>
+</ArrayOfAreaDeAtuacao>

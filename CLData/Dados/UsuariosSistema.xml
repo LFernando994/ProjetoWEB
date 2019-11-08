@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfUsuariosSistema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UsuariosSistema>
+    <id>0</id>
+    <nome>Edim</nome>
+    <cpf>960,479,506-63</cpf>
+    <rg>96047950</rg>
+  </UsuariosSistema>
+  <UsuariosSistema>
+    <id>1</id>
+    <nome>Paulo</nome>
+    <cpf>5685263211</cpf>
+    <rg>12365489</rg>
+  </UsuariosSistema>
+</ArrayOfUsuariosSistema>
